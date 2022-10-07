@@ -1,7 +1,5 @@
 import { ProdutosService } from './../../../services/produtos.service';
 import { Produtos } from './../../models/produtos';
-import { HttpClient } from '@angular/common/http';
-import { UsersService } from './../../../services/users.service';
 import { AuthenticationService } from 'src/app/services/authentication.service';
 import { Component, OnInit } from '@angular/core';
 import { Router } from '@angular/router';

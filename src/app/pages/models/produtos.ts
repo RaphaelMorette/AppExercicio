@@ -1,4 +1,3 @@
-import { Validators } from '@angular/forms';
 export class Produtos {
   id: number =  0;
   nome: string = '';

@@ -1,18 +1,18 @@
-import { Component, OnInit } from '@angular/core';
+import { Component } from '@angular/core';
 import { Router } from '@angular/router';
 import { UsersService } from 'src/app/services/users.service';
 
 @Component({
   selector: 'app-login',
   templateUrl: './login.component.html',
-  styleUrls: ['./login.component.css']
+  styleUrls: ['./login.component.css'],
 })
-export class LoginComponent{
+export class LoginComponent {
   user: string = '';
   password: string = '';
-  loginInvalido: string = 'noShow'
+  loginInvalido: string = 'noShow';
 
-  constructor(private _router: Router, private _userService: UsersService) { }
+  constructor(private _router: Router, private _userService: UsersService) {}
 
   logIn() {
     if (this.user === '') {
@@ -45,5 +45,4 @@ export class LoginComponent{
       });
     });
   }
-
 }
