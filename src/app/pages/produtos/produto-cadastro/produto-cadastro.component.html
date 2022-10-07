@@ -1,0 +1,96 @@
+
+<app-header></app-header>
+
+<div class="content">
+  <h3 class="fw-light">Cadastro | Produto</h3>
+
+  <div>
+    <div class="row g-3">
+      <div class="form-floating col-md-6">
+        <input
+          type="text"
+          class="form-control"
+          placeholder="Nome"
+          [(ngModel)]="formProduto.nome"
+        />
+        <label for="floatingInput">Nome</label>
+      </div>
+
+      <div class="form-floating col-md-6">
+        <input
+          type="text"
+          class="form-control"
+          placeholder="Marca"
+          [(ngModel)]="formProduto.marca"
+        />
+        <label for="floatingPassword">Marca</label>
+      </div>
+
+      <div class="form-floating col-md-6">
+        <input
+          type="text"
+          class="form-control"
+          placeholder="Modelo"
+          [(ngModel)]="formProduto.modelo"
+        />
+        <label for="floatingPassword">Modelo</label>
+      </div>
+
+      <div class="form-floating col-md-6">
+        <input
+          type="email"
+          class="form-control"
+          placeholder="Preco custo"
+          [(ngModel)]="formProduto.precoCusto"
+        />
+        <label for="floatingPassword">Preço de custo</label>
+      </div>
+
+      <div class="form-floating col-md-6">
+        <input
+          type="text"
+          class="form-control"
+          placeholder="Preco venda"
+          [(ngModel)]="formProduto.precoVenda"
+        />
+        <label for="floatingPassword">Preço de venda</label>
+      </div>
+
+      <div class="form-floating col-md-6">
+        <input
+          type="text"
+          class="form-control"
+          placeholder="estoque minimo"
+          [(ngModel)]="formProduto.estoqueMinimo"
+        />
+        <label for="floatingPassword">Estoque mínimo</label>
+      </div>
+
+      <div class="form-floating col-md-6">
+        <input
+          type="text"
+          class="form-control"
+          placeholder="Estoque atual"
+          [(ngModel)]="formProduto.estoqueAtual"
+        />
+        <label for="floatingPassword">Estoque atual</label>
+      </div>
+
+      <div class="col-12 py-3">
+        <button
+          type="submit"
+          class="btn btn-primary"
+          style="margin-right: 10px"
+          (click)="cadastrar()"
+        >
+          Criar
+        </button>
+        <button type="submit" class="btn btn-dark" routerLink="/produto">
+          Voltar
+        </button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<app-footer></app-footer>

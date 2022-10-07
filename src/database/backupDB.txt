@@ -1,0 +1,42 @@
+{
+  "usuarios": [
+    {
+      "id": 1,
+      "nome": "Raphael",
+      "telefone": "0000-0000",
+      "email": "Raphael.morette@foursys.com.br",
+      "senha": "123",
+      "acesso": "total",
+      "cep": "02074002",
+      "logradouro": "Rua do Imperador",
+      "bairro": "Vila Paiva",
+      "cidade": "São Paulo",
+      "estado": "SP"
+    },
+    {
+      "id": 2,
+      "nome": "Joao",
+      "telefone": "0000-0000",
+      "email": "joao@foursys.com.br",
+      "senha": "123",
+      "acesso": "restrito",
+      "cep": "00000-000",
+      "logradouro": "Rua do Imperador",
+      "bairro": "Vila Paiva",
+      "cidade": "São Paulo",
+      "estado": "SP"
+    }
+  ],
+  "produtos": [
+    {
+      "id":1,
+      "nome": "tênis PROD 5",
+      "marca": "Nike",
+      "modelo": "PROD V",
+      "precoCusto": 250.00,
+      "precoVenda": 500.00,
+      "estoqueMinimo": 10,
+      "estoqueAtual": 5
+    }
+  ]
+}

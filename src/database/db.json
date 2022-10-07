@@ -1,0 +1,62 @@
+{
+  "usuarios": [
+    {
+      "id": 1,
+      "nome": "Raphael",
+      "telefone": "0000-0000",
+      "email": "Raphael.morette@foursys.com.br",
+      "senha": "123",
+      "acesso": "total",
+      "cep": "02074002",
+      "logradouro": "Rua do Imperador",
+      "bairro": "Vila Paiva",
+      "cidade": "São Paulo",
+      "estado": "SP"
+    },
+    {
+      "id": 2,
+      "nome": "Joao",
+      "telefone": "0000-0000",
+      "email": "joao@foursys.com.br",
+      "senha": "123",
+      "acesso": "restrito",
+      "cep": "00000-000",
+      "logradouro": "Rua do Imperador",
+      "bairro": "Vila Paiva",
+      "cidade": "São Paulo",
+      "estado": "SP"
+    }
+  ],
+  "produtos": [
+    {
+      "id": 1,
+      "nome": "tênis PROD 5",
+      "marca": "Nike",
+      "modelo": "PROD V",
+      "precoCusto": 250,
+      "precoVenda": 500,
+      "estoqueMinimo": 10,
+      "estoqueAtual": 5
+    },
+    {
+      "id": 2,
+      "nome": "Tênis Busenitz",
+      "marca": "Adidas",
+      "modelo": "Busenitz Vulc",
+      "precoCusto": 0,
+      "precoVenda": 0,
+      "estoqueMinimo": 0,
+      "estoqueAtual": 0
+    },
+    {
+      "id": 3,
+      "nome": "Tênis adidas alterado",
+      "marca": "Adidas alterado",
+      "modelo": "Busenitz Vulc alterado",
+      "precoCusto": "299.00",
+      "precoVenda": "500.99",
+      "estoqueMinimo": "50",
+      "estoqueAtual": "2"
+    }
+  ]
+}
